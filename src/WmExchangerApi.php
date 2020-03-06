@@ -3,8 +3,8 @@
 
 class WmExchangerApi
 {
-    public function test()
+    public static function test()
     {
-        echo 'lol';
+        return 'lol';
     }
 }
