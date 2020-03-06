@@ -1,0 +1,25 @@
+{
+  "name": "skyoddler/wmexchanger-api",
+  "type": "library",
+  "keywords": ["WmExchanger", "wm.exchanger.ru", "api"],
+  "homepage": "https://github.com/Skyoddler/WmExchanger-API",
+  "description": "TODO",
+  "require": {
+    "php": "^7.0",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "WmExchanger-API\\": "src/WmExchangerApi.php"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Skyoddler",
+      "email": "oddler.redgrave@outlook.com"
+    }
+  ]
+}
